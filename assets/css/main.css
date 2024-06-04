@@ -37,7 +37,7 @@
 }
 
 .header__navbar-user-name {
-    margin-left: 8px;
+    margin-left: 4px;
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -94,9 +94,13 @@
     color: var(--text-color);
 }
 
+.header__navbar-user-item--separate{
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 .header__navbar-item,
 .header__navbar-item-link{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--white-color);
     text-decoration: none;
     font-weight: 300;
@@ -142,6 +146,7 @@
 .header__navbar__lable{
     color: var(--white-color);
     cursor: text;
+    margin-right: 3px;
 }
 
 .qr_code_download{
@@ -438,6 +443,11 @@
     width: 150px;
 }
 
+.header__logo-link{
+    text-decoration: none;
+    color: transparent;
+}
+
 .header__search{
     background-color: var(--white-color);
     height: 40px;
@@ -679,7 +689,7 @@
     position: absolute;
     list-style: none;
     right: 0;
-    top: 120%;
+    top: 118%;
     width: 130px;
     box-shadow: 0 1px 2px #999;
     padding-left: 0;
