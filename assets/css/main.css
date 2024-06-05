@@ -784,3 +784,117 @@
     line-height: 38px;
     display: block;
 }
+
+
+/* Home Page */
+
+.app__container{
+    background-color: #F5F5F5;
+}
+
+.app__content{
+    padding-top: 32px;
+}
+
+.category{
+    background-color: var(--white-color);
+    border-radius: 2px;
+}
+
+.category__heading{
+    margin-top: 0;
+    font-size: 1.7rem;
+    color: var(--text-color);
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category__heading-icon{
+    font-size: 1.4rem;
+    margin-right: 4px;
+    position: relative;
+    top: -2px;
+}
+
+.category-list{
+    padding: 0 0 8px 0;
+    list-style: none;
+    margin-left: 10px;
+}
+
+
+.category-item--active .category-item__link{
+    color: var(--primary-color);
+}
+
+.category-item--active .category-item__link::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    border: 4px solid;
+    transform: translateY(calc(-50% - 2px));
+    border-color: transparent transparent transparent var(--primary-color);
+}
+.category-item__link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    display: block;
+    padding: 8px 16px;
+    position: relative;
+    right: 0;
+    transition: right linear 0.1s;
+}
+
+.category-item__link:hover{
+    left: 4px;
+    color: var(--primary-color);
+}
+/* soft + filter */
+.home-filter{
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border-radius: 2px;
+}
+
+.home-filter__lable{
+    font-size: 1.4rem;
+    color: #555555;
+    margin-right: 16px;
+}
+
+.home-filter__btn{
+    background-color: var(--white-color);
+    margin-right: 12px;
+}
+
+.home-filter__paginate-number{
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.home-filter__paginate-current{
+    color: var(--primary-color);
+}
+.home-filter__paginate{
+    margin-left: auto;
+    display: flex;
+}
+
+.home-filter__pagenate-navigate{
+    margin-left: 24px;
+}
+
+.home-filter__pagenate-btn{
+    padding: 12px 16px;
+    background-color: var(--white-color);
+    margin-right: 1px;
+    border-radius: 2px;
+}
+
+.home-filter__pagenate-icon{
+    color: var(--text-color);
+}
