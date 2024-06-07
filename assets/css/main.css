@@ -893,8 +893,18 @@
     background-color: var(--white-color);
     margin-right: 1px;
     border-radius: 2px;
+    text-decoration: none;
 }
 
 .home-filter__pagenate-icon{
-    color: var(--text-color);
+    color: #555555;
+}
+
+.home-filter__pagenate-btn--disabled{
+    background-color: #F9F9F9;
+    cursor: default;
+}
+
+.home-filter__pagenate-btn--disabled .home-filter__pagenate-icon{
+    color: #ccc;
 }
