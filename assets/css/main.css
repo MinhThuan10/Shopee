@@ -1052,20 +1052,12 @@ i.home-product-item__like-icon{
 .home-product-item__origin {
     display: flex;
     justify-content: space-between;
-    margin: 4px 10px 0;
+    margin: 4px 10px 0px;
+    padding-bottom: 8px;
     color: #595959;
     font-weight: 300;
     font-size: 1.2rem;
 }
-
-.home-product-item__brand {
-
-}
-
-.home-product-item__country {
-
-}
-
 .home-product-item__favourite {
     position: absolute;
     top: 10px;
@@ -1167,4 +1159,112 @@ i.home-product-item__like-icon{
     text-align: center;
     line-height: 30px;
     border-radius: 2px;
+}
+/* footer */
+.footer{
+    border-top: 4px solid var(--primary-color);
+    padding-top: 32px;
+}
+
+.footer__heading{
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.footer__list{
+    list-style: none;
+    padding: 0;
+}
+
+.footer__item{
+    padding: 4px 0;
+}
+
+.footer__item-link{
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+    
+}
+
+.footer__item__icon{
+    font-size: 1.4rem;
+    margin: 1px 8px 0 0;
+    color: #000;
+}
+
+.footer-download{
+    display: flex;
+    text-align: center;
+}
+
+.footer-download__qr{
+
+}
+
+.footer-download__list-link-qr img{
+    width: 88px;
+    box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
+    margin-right: 12px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    padding: 4px;
+}
+
+.footer-download__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-download__list-link-app{
+    display: block;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    margin-bottom: 8px;
+    padding: 4px;
+    height: 24px;
+}
+
+.footer-pay {
+    margin-bottom: 20px;
+}
+.footer-pay__approach {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-pay__approach-img {
+    flex: 1 1 calc(33.333% - 10px);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-pay__approach-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-delivery {
+    margin-bottom: 20px;
+}
+
+.footer-delivery__approach {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-delivery__approach-img {
+    flex: 1 1 calc(33.333% - 10px);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-delivery__approach-img img {
+    max-width: 100%;
+    height: auto;
 }
