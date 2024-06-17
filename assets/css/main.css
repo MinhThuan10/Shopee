@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.icon-wrap{
+    display: none;
+}
+
 .header__navbar{
     display: flex;
     justify-content: space-between;
@@ -439,6 +443,8 @@
     padding: 0 8px;
 }
 
+
+
 .header__logo{
     width: 200px;
 }
@@ -450,7 +456,10 @@
 .header__logo-link{
     text-decoration: none;
     color: transparent;
+    display: block;
+    line-height: 0;
 }
+
 
 .header__search{
     background-color: var(--white-color);
