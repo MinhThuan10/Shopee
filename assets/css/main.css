@@ -866,6 +866,23 @@
     display: none;
 }
 
+.mobile-category {
+    display: none;
+}
+
+.header-mobile{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    max-width: 320px;
+    background-color: #fff;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all linear 0.3s;
+    z-index: 2;
+}
 /* Home Page */
 
 .app__container{
@@ -949,6 +966,7 @@
     left: 4px;
     color: var(--primary-color);
 }
+
 /* soft + filter */
 .home-filter{
     background-color: rgba(0, 0, 0, 0.05);
@@ -1333,4 +1351,14 @@ i.home-product-item__like-icon{
 .footer-delivery__approach-img img {
     max-width: 100%;
     height: auto;
+}
+
+.footer__license{
+    text-align: center;
+    padding: 12px;
+}
+.footer__license-content{
+    font-size: 1.4rem;
+    color: var(--text-color);
+
 }
